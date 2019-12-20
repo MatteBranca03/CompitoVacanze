@@ -22,7 +22,7 @@ namespace CompitoVacanze
             long number = 55555;
             Console.WriteLine(Convert.ToString(number, 2));
             short number1 = (short)number;
-            Console.WriteLine(number1);
+            Console.WriteLine(number1); 
         }
     }
 }
