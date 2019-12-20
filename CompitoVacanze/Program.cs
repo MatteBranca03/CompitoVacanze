@@ -21,7 +21,7 @@ namespace CompitoVacanze
             //in queste 4 righe l'int c viene convertito in binario e poi stampato
             int value = 31;
             int somma = value;
-            value = ~value + 1; // NOT
+            value = ~value + 1; // NOT 
             //value = value + 1;
             somma = somma + value;
             Console.WriteLine($"{value} e {somma}");
