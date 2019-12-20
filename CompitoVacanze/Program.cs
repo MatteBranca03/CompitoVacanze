@@ -7,7 +7,9 @@ namespace CompitoVacanze
         static void Main(string[] args)
         {
             int a = int.MaxValue;
+            //viene stampato il numero massimo che un int può contenere 
             Console.WriteLine(a);
+            //il programmma va int overflow perchè viene aggiunto un 1 al numero massimo che l'int può contenere 
             Console.WriteLine(a + 1);
             int b = 128;
             int c = -b;
